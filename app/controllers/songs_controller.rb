@@ -21,6 +21,7 @@ class SongsController < ApplicationController
       end 
     else 
       @song = Song.find(params[:id])
+    end 
   end
 
   def new
